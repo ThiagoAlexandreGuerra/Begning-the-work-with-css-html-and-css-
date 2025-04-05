@@ -1,0 +1,29 @@
+*{
+    padding: 0%;
+    width: 0%;
+    height: 0%;
+}
+body{
+    background-color:  #0f0f0f;
+}
+p{
+    background-color: #0f0f0f;;
+    text-align: justify;
+    text-indent: 20px;
+    color: aliceblue;
+    width: 95vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+::-webkit-scrollbar{
+    background-color:#131212;
+    width: 4px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #8f0000;
+    border-radius: 8px;
+}
+.extracao{
+    display: inline;
+}

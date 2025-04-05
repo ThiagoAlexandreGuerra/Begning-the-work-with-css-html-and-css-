@@ -1,0 +1,1118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body{
+    background-color: #0f0f0f;
+}
+body>main>div.esmaecer_class{
+
+    width: 88.5vw;
+    height: 100vw;
+    position: fixed;
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+    z-index: 10;
+    left: 5.39%;
+    margin: none;
+    display: none;
+    opacity: 0.7;
+    transition: 1s;
+}
+.atv_esmacer_class{
+    display: flex !important;
+}
+
+.home_title{
+    position: relative;
+    height: 200px;
+    width: 300px;
+    left: 100px;
+    top: 25px;
+    font-family: "Yeseva One", serif;
+    line-height: 4px;
+    color: aliceblue;
+}
+.caixa_esquerda{
+    border: 2px solid #494949 ;
+    border-radius: 5px ;
+    background-color: #131212 ;
+    padding: 10px ;
+    display: flex ;
+    flex-direction: column ;
+    justify-content: flex-start ;
+    align-items: center ;
+    margin: none ;
+    height: 100vh ;
+    width: 5.4% ;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    box-shadow: 6px 8px 10px rgb(0,0,0,.5);
+}
+.caixa_direita{
+    border: 2px solid #494949 ;
+    border-radius: 5px ;
+    background-color: #131212 ;
+    padding: 10px ;
+    display: flex ;
+    flex-direction: column ;
+    justify-content: flex-start ;
+    align-items:center ;
+
+    margin: 0px ;
+    height: 100vh ;
+    width: 5.4%;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    box-shadow: 6px 6px 8px 10px rgb(0,0,0,.5);
+}
+
+.icone_box{
+
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    margin-top: 70%;
+}
+.icone_box:hover{
+    background-color: rgb(116, 116, 116) ;
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    border-radius: 5px;
+}
+.icone_box_direita{
+
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    margin-top: 70%;
+}
+.icone_box_direita:hover{
+    background-color: #ff0202;
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    border-radius: 5px;
+}
+.icone_menu{
+    position: relative;
+    left:12%;
+    top: 15%;
+    font-size: 40px;
+    font-family: "Yeseva One", serif;
+    cursor: pointer;
+}
+.primeiro{
+
+    color: aliceblue !important;
+    position: relative !important;
+    width: 67px !important;
+    height: 67px !important;
+    top: 2% !important;
+    margin-top: 0% !important;
+}
+.primeiro:hover{
+    background-color:rgb(116, 116, 116);
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    border-radius: 5px;
+}
+.icone_box_primeiro:hover{
+    background-color:rgb(116, 116, 116);
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    border-radius: 5px;
+}
+.icone_box_home{
+
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    margin-top: 0%;
+}
+.icone_box_home:hover{
+    background-color: #f00;
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    border-radius: 5px;
+}
+.icone_box_ultimo{
+
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    margin-top: 5px;
+}
+.icone_box_ultimo:hover{
+    background-color: #f00;
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    border-radius: 5px;
+}
+.tavatorto{
+    left: 7px !important;
+}
+.icon_size{
+    left: 0px !important;
+    top: 2px !important;
+    
+}
+.img_size{
+    height: 60px !important;
+    width: 60px !important;
+}
+.icon_calendar{
+    top: 1.5px !important;
+    left: 3.5px !important;
+}
+.icone_box_confg{
+
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    margin-top: 65px;
+    
+}
+.icone_box_confg:hover{
+    background-color: #f00;
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    border-radius: 5px;
+}
+.ativa_menu_lateral{
+    background-color: #f00 !important;
+    border-radius: 5px;
+    top: 13%;
+    cursor: pointer;
+}
+.esconde_menu_lateral{
+    display: none;
+}
+@media (device-width: 100vw) and (device-height: 100vh) { 
+
+    .icone_box_ultimo{
+
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 7%;
+    margin-top: 5px;
+    }
+    .icone_box_ultimo:hover{
+        background-color: #f00;
+        color: aliceblue;
+        position: relative;
+        width: 67px;
+        height: 67px;
+        top: 7%;
+        border-radius: 5px;
+}
+    .icone_box_confg{
+
+        color: aliceblue;
+        position: relative;
+        width: 67px;
+        height: 67px;
+        top: 7%;
+        margin-top: 186px;
+    }
+    .icone_box_confg:hover{
+        background-color: #f00;
+        color: aliceblue;
+        position: relative;
+        width: 67px;
+        height: 67px;
+        top: 7%;
+        border-radius: 5px;
+    }
+    .icone_box{
+
+        color: aliceblue;
+        position: relative;
+        width: 67px;
+        height: 67px;
+        top: 2%;
+        margin-top: 110%;
+    }
+    .icone_box:hover{
+        background-color: rgb(116, 116, 116);
+        color: aliceblue;
+        position: relative;
+        width: 67px;
+        height: 67px;
+        top: 2%;
+        border-radius: 5px;
+    }
+    
+}
+/*box question********************************************************************************************************/
+.alinha_itens_pag{
+    background-color:none;
+    height: 100vh;
+    width: 87.8vw;
+    align-items: center;
+    padding: auto;
+    justify-content: center;
+    position: absolute;
+    left:6%;
+   
+}
+.box_for_questions_list{
+    border: solid #8f0000;
+    background-color: #131212;
+    width: 80%;
+    height: 50%;
+    position: relative;
+    margin-top: 5%;
+    left: 9.5%;
+    align-items: center;
+    justify-content: center;
+   
+}
+.box_for_ferramentas{
+    position: relative;
+    background-color: none;
+    height: 16%;
+    width: 100.5%;
+    top: -50px;
+    left: -0.25%;
+    flex-direction: row;
+    display: flex;
+}
+.btn_box_ferramentas{
+    background-color: #110101;
+    width: 20%;
+    height: 47px;
+    border-radius: 8px;
+    color: aliceblue;
+    font-size: 90%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn_box_ferramentas:hover{
+    background-color: #ff0202;
+    width: 20%;
+    border-radius: 5px;
+    border: none;
+    color: aliceblue;
+    font-size: 90%;
+    cursor: pointer;
+}
+.button_icon{
+    position: relative;
+    top: -9%;
+}
+.button_icon:hover{
+    position: relative;
+    top: -8%;
+}
+.icone_nota{
+    width: 40px !important;
+    height: 40px !important;
+    top: 2px !important;
+}
+.icone_nota:hover{
+    width: 40px !important;
+    height: 40px !important;
+    top: 2px !important;
+}
+.box_questions{
+    display: flex;
+    width: 95%;
+    height: 13%;
+    background-color: #000000;
+    border-radius: 8px;
+    justify-content:left;
+    align-items: center;
+    position: relative;
+    top: -8%;
+    margin: 1.5%;
+    left: 1.3%;
+}
+.texto_alternativas{
+    color: rgba(255, 255, 255, 0.815);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.botoes{
+    padding: 2px;
+    color:rgba(255, 255, 255, 0.815);
+    background-color: #242222;
+    border-radius: 5px;
+    width: 30px;
+    height: 20px;
+    margin:1%;
+    transition: 0.5s;
+}
+.botoes:hover{
+    padding: 2px;
+    color:rgba(255, 255, 255, 0.815);
+    background-color: #ffffff59;
+    border-radius: 5px;
+    width: 30px;
+    height: 20px;
+    margin:1%;
+}
+.a_b_c_d_e{
+    position: relative;
+    left: 30%;
+}
+
+iframe{
+    border: none;
+    position: absolute;
+    width: 80%;
+    height: 300px;
+    left: 9%;
+    top: 0px;
+
+}
+.box_para_texto_No_iframe{
+ position: relative;
+ width: 85%;
+ height: 304px;
+ left: 8%;
+ top: -100px;
+ border: none;
+}
+.box_questions_code{
+    border: none;
+    width: 30%;
+    height: 30px;
+    position: relative;
+    top: -40px;
+    left:  672px;
+}
+.questao_code_estilo{
+    font-size: 200%;
+    color: aliceblue;
+    position: absolute;
+    top: -40px;
+    right: 0%;
+}
+.inp_btn{
+    display: none;
+ }
+
+ /*anotaçao css estilos e ativaçoes colors *******************************************************************/
+ /************************************************************************************************************/
+.box_for_anotacoes_space{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: none;
+    margin: none;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #000000;
+    border: none;
+    z-index: 5;
+    display: none;
+}
+.box_for_anotacoes_space_atv{
+    display: flex;
+}
+.box_anotacoes{
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    display: flex;
+    background-color: #000000;
+    border: 2px solid rgb(83, 83, 83);
+    padding: 0%;
+    margin: none;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+}
+
+.box_para_texto_anotacao_edit{
+    width: 17900%;
+    height: 99.5%;
+    position: absolute;
+    background-color: none;
+    z-index: 5;
+    left: 90%;
+    transition: 1s;
+    top: 0.5%;
+    overflow: hidden;
+    display: none;
+}
+.box_para_texto_anotacao_edit_atv{
+    display: flex;
+}
+.box_slide_for_text_anotacao_edtit{
+    width: 100%;
+    height: 100%;
+    background-color: #1f1f1f;
+    position: absolute;
+    left: -100%;
+    transition: 1s;
+}
+.box_slide_for_text_anotacao_edtit_atv{
+    left:0%; 
+}
+.box_in_anotacao_slide_titulo{
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    background-color: rgb(71, 71, 71);
+    font-family: "Playfair Display", serif;
+    color: aliceblue;
+    font-size: 150%;
+}
+.box_in_anotacao_slide_titulo_titulo{
+    height: 100%;
+    width: 20%;
+    background-color:none;
+    font-family: "Playfair Display", serif;
+    color: aliceblue;
+    font-size: 150%;
+}
+.for_text_area_in_slide_anotacao{
+    width: 90%;
+    height: 80%;
+    top: 15%;
+    position: absolute;
+    background-color: none;
+}
+.box_titulo_info_tag{
+    height: 100%;
+    width: 80%;
+    left: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: whitesmoke;
+    
+}
+.box_for_ind_da_imp{
+    background-color: #8f0000;
+    width: 100%;
+    height: 5%;
+    position: absolute;
+    top: 95%;
+}
+.box_in_slide_anotaca_switch_imp{
+    height: 80%;
+    width: 10%;
+    display: block;
+    height: 80;
+    position: absolute;
+    background-color: #8f0000;
+    left:90% ;
+    top: 15%;
+}
+
+.linha_vertical_estilizacao{
+    position: relative;
+    width: 2px;
+    height: 90%;
+    top: 5%;
+    left: 19%;
+}
+.linha_horizontal_superior_maior_estilizacao{
+    position: absolute;
+    width: 96.5%;
+    height: 2px;
+    left: 2.5%;
+    top: 2%;
+    border-top-right-radius: 8px;
+}
+.linha_vertical_estilizacao_menor_canto_direito{
+    position: absolute;
+    width: 4px;
+    height: 34%;
+    top: 2.4%;
+
+    border-top-right-radius: 8px;
+    left: 97%;
+}
+.linha_horizontal_estilizacao_menor_canto_direito{
+    position: absolute;
+    width: 66.5%;
+    height: 2px;
+    top: 36.4%;
+
+    border-top-right-radius: 8px;
+    left: 33.5%;
+
+}
+.linha_vertical_estilizacao_maior_central{
+    width: 4px;
+    height: 96%;
+    position: absolute;
+    top: 2.5%;
+    left: 33%;
+}
+.color_estilizacao_anota_box{
+    background: #1d1d1d !important;
+}
+.box_ultimas_anotacoes{
+    width: 15vw;
+    background-color: none;
+    height: 76%;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    background-color: none;
+    margin: none;
+    margin-top: 70px;
+    padding: 0%;
+    left: -2px;
+    position: absolute;
+    top: -2px;
+    overflow: visible;
+    overflow: hidden;
+    overflow: scroll;
+    overflow: auto;
+}    
+.box_ultimas_anotacoes::-webkit-scrollbar{
+    background-color:#131212;
+    width: 2px;
+}
+.box_ultimas_anotacoes::-webkit-scrollbar-thumb{
+    background-color: #ededed;
+    border-radius: 4px !important;
+}
+.box_anotacoes_feitas{
+    position: relative;
+    height: 40px;
+    width: 90%;
+    margin-top: 10%;
+    background-color: #080808;
+    border-radius: 5px;
+    border: 2px solid rgb(75, 75, 75);             /*box anotações feitas */
+    left: 10px;                                      /*indentifidas por cores*/   
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+.box_anotacoes_feitas_quando_imp_red_atv{
+    border: 1px solid rgb(255, 0, 0);
+
+}
+.box_anotacoes_feitas_quando_imp_green_atv{
+    border: 1px solid  rgb(2, 255, 15);
+
+}
+.box_anotacoes_feitas_quando_imp_yellow_atv{
+    border:1px solid rgb(255, 238, 0); 
+
+}
+.box_editar_mudar_imp_exclui{
+    width: 13.4%;
+    height: 90%;
+    position: absolute;
+    background-color:none;
+    left: 19.4%;
+    top: 6%;
+}
+.box_edicao_dentro_do_conj_editar{
+    width: 95%;
+    height: 15%;
+    position: relative;
+    margin-top: 2%;
+    background-color: #070707;
+    border-radius: 5px;
+    border: 2px solid rgb(116, 116, 116);
+}
+.box_edicao_dentro_do_conj_editar:hover{
+    background-color: rgb(88, 88, 88);
+    border: 3px solid whitesmoke;
+}
+.btn_excluir_anotacoes{
+    color: aliceblue;
+    font-size: 150%;
+    position: relative;
+    left: 3%;
+    top: 7%;
+    font-family: "Prompt", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+.btn_editar_anotacoes{
+    color: aliceblue;
+    font-size: 150%;
+    position: relative;
+    left: 3%;
+    top: 7%;
+    font-family: "Prompt", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+.btn_trocarImportancia_anotacoes{
+    padding: none;
+    color: aliceblue;
+    font-size: 150%;
+    position: relative;
+    left: 3%;
+    top: 1%;
+    font-family: "Prompt", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+.titulo_in_anotacao{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-color:none;
+    
+}
+.hora_data_anotacao{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-color: none;
+    top: 50.5%;
+}
+.titulo_box_for_anotacoes{
+    font-size: 200%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: aliceblue;
+    font-family: "Playfair Display", serif;
+
+}
+.box_btn_cores{
+     width: 40vw;
+     height: 40px;
+     position: absolute;
+     left: 33.8%;
+     top: 6%;
+     background-color: rgb(17, 17, 17);
+     border: none;
+     border-radius: 5px;
+}
+.box_btn_titulo_anotacoes{
+    width: 40vw;
+     height: 40px;
+     position: relative;
+     left: 33.8%;
+     margin-top: 6%;
+     background-color: rgb(17, 17, 17);
+     border: none ;
+     border-radius: 5px;
+}
+
+
+
+.box_for_text_area{
+    width: 51vw;
+     height: 57%;
+     position: absolute;
+     left: 33.8%;
+     top: 39%;
+     background-color: rgb(17, 17, 17);
+     border: 3px solid rgb(49, 49, 49)  ;
+     border-radius: 5px;
+}
+.box_for_text_area_atv_for_red{
+    border: 3px solid #f00 !important;
+}    
+.box_for_text_area_atv_for_green{
+    border: 3px solid  rgb(2, 255, 15) !important  ;
+}
+.box_for_text_area_atv_for_yellow{
+    border: 3px solid  rgb(255, 238, 0) !important; 
+}
+
+
+.imo_cr_red_btn{
+    background-color: rgb(143, 0, 0);
+    position: relative;
+    width: 40px;
+    height: 20px;
+    border: 2px solid rgb(71, 0, 0)  ;
+    left: 18%;
+    top: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+}    
+.imo_cr_red_btn:hover{
+    background-color: rgb(255, 0, 0);
+}
+.atv_imo_red_btn{
+    background-color: rgb(255, 0, 0);
+}
+
+.imo_cr_green_btn{
+    background-color: rgb(0, 119, 6);
+    position: relative;
+    width: 40px;
+    height: 20px;
+    border: 2px solid rgb(0, 49, 2);
+    left: 22%;
+    top: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.imo_cr_green_btn:hover{
+    background-color:  rgb(2, 255, 15);
+}
+.atv_imo_green_btn{
+    background-color:  rgb(2, 255, 15);
+}
+
+.imo_cr_yellow_btn{
+    background-color: rgb(141, 132, 0);
+    position: relative;
+    width: 40px;
+    height: 20px;
+    border: 2px solid rgb(85, 79, 0);
+    left: 20%;
+    top: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.imo_cr_yellow_btn:hover{
+    background-color:rgb(255, 238, 0); 
+}
+.atv_imo_yellow_btn{
+    background-color:rgb(255, 238, 0); 
+}
+
+.box_btn_cores_subtitulo{
+    background-color: none;
+    border: none;
+    width: 30%;
+    position:relative;
+    color: aliceblue;
+    left: 5px;
+    top: 4px;
+    font-size: 150%;
+    display: inline;
+    font-family: "Asap", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+.input_anotacoes_titulo_class{
+    width: 75%;
+    position: relative;
+    left: 2%;
+    top: 3px;
+    color: #ffffff;
+    background-color: #131212;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
+textarea{
+    position: absolute;
+    width: 99%;
+    height: 96.5%;
+    background-color: #1b1b1b;
+    color: aliceblue;
+}
+.bloqueia_textarea_class{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: none;
+    z-index: 3;
+}
+.bloqueia_textarea_class:hover{
+    background-color: #494949;
+}
+.desativa_bloqueia_textarea_class{
+    display: none;
+}
+.btn_adicionar_anotação_class{
+    position: relative;
+    width: 7vw;
+    height: 10vh;
+    top: 33px;
+    left: 36%;
+    background-color: #000000;
+    color: whitesmoke;
+    cursor: pointer;
+    font-family: "Asap", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+.btn_adicionar_anotação_class:hover{
+    background-color: rgb(88, 88, 88);
+    border: 3px solid whitesmoke;
+}
+
+.atv_btn_adicionar_anotação_class{
+    background-color: aliceblue;
+    color: #000000;
+}
+.ativado_anotacao_for_idn_edit{
+    background-color: aliceblue;
+    color: #000000;
+}
+
+/*box direito erroneamente chamado de esquerdo atualizaçao 07/07/2024***************************************************************************************/
+.ativado_menu_lateral_direito{
+    background-color: #f00 !important;
+    border-radius: 5px;
+}
+.box_slide_menu_horizontal{
+    background-color: #f00;
+    width: 0%;
+    height: 2px !important;
+    position: fixed;
+    left: 73.7%;
+    top: 30px;
+    transition: 0.5s;
+    z-index: 10;
+
+}
+.atv_box_slide_menu_horizontal{
+   
+    width: 21%;
+    display: flex !important;
+}
+.box_slide_menu_vertical{
+    background-color: #f00;
+    width: 2px;
+    height: 0vh ;
+    position: fixed;
+    left: 73.7%;
+    top: 30px;
+    transition: 0.5s;
+    z-index: 10;
+}
+.atv_box_slide_menu_vertical{
+    height: 90vh !important;
+}
+.box_slide_full_menu_lateral{
+    background: black;
+    width: 20%;
+    height: 87vh ;
+    position: fixed;
+    left: 74%;
+    top: 32px;
+    display: none;
+    z-index: 10;
+    
+}
+.atv_box_slide_full_menu_lateral{
+   display: flex;
+}
+.desativa{
+    display: none;
+}
+.posiciona_text_in_menu_lateral_esq{
+    color: aliceblue;
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    font-size: 200%;
+}
+.posiciona_box_menu_lateral_box_full_itens_primeiro{
+    color: aliceblue;
+    position: relative;
+    border: 2px solid rgb(116, 116, 116);
+    margin-top: 150px;
+    font-size: 150%;
+    left: 5px;
+    width: 90%;
+    height: 40px;
+    background-color: #070707;
+    border-radius: 5px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    cursor: pointer;
+    
+}
+.posiciona_box_menu_lateral_box_full_itens_primeiro:hover{
+    background-color: rgb(88, 88, 88);
+    border: 3px solid whitesmoke;
+}
+.posiciona_box_menu_lateral_box_full_itens{
+    color: aliceblue;
+   position: relative;
+   border: 2px solid rgb(116, 116, 116);
+    margin-top: 20px;
+    font-size: 150%;
+    left: 5px;
+    width: 90%;
+    height: 40px;
+    background-color: #070707;
+    font-family: "Prompt", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    cursor: pointer;
+    
+}
+.posiciona_box_menu_lateral_box_full_itens:hover{
+    background-color: rgb(88, 88, 88);
+    border: 3px solid whitesmoke;
+}
+.arrumando_position_box_esquerda{
+    position: relative;
+    display: inline;
+    width: 90vw;
+    height: 93vh;
+    padding: 0%;
+    
+}
+.ajeita_ajeita_text_itens_menu_lateral_esq{
+    position: absolute;
+    left: 5px;
+    top: 2px;
+}
+.titulo_menu_laterl_direito{
+    font-family: "Playfair Display", serif;
+    left: -15px !important;
+}
+/* fim da atualizaçao de 07/07/2024****************************************************************************/
+
+/*scrollbar********************************************************************************************************/
+::-webkit-scrollbar{
+    background-color:#131212;
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color:#ffbb00ec;
+    border-radius: 8px;
+}
+/*ativa alternativas*************************************************************************************************/
+.ativado_responder_btn{
+     background-color: #ffbb00ec !important ;
+}
+.ativado{
+    background-color: #f00 !important;
+}
+.resposta_correta_green{
+    background-color: rgb(0, 255, 0) !important;
+}
+.resposta_correta_orange{
+     background-color: rgb(47, 0, 255) !important;
+}
+/*relojo tela com display principal****************************************************
+***************************************************************************************/
+.box_relojoclass{
+    width: 20%;
+    height: 10%;
+    position: absolute;
+    left: 75%;
+    background-color:none;
+    padding: none;
+    display: flex;
+    top: 1.7%;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 2;
+    background-color:none;
+    transition: 1s;
+}
+.atv_relojo_slide_conometro{
+    left: 63%;
+}
+.relogio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    font-size: 150%;
+    box-shadow: 0px 8px 10px rgb(0,0,0,.5);
+    left:25% ;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: none;
+    z-index: 2;
+    background-color: #0f0f0f;
+    top: 1.5%;
+
+}
+.box_play_img_for_relogio{
+    position: absolute;
+    width: 20%;
+    height: 15%;
+    background-color: none;
+    align-items: center;
+    top: 65%;
+    left: 43%;
+    z-index: 2;
+    background-color:#0f0f0f;
+
+}
+/*cronometro pagina layout principal**************************************************
+**************************************************************************************/
+.conometro_class_in_box_relogio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 13%;
+    height: 10%;
+    font-size: 150%;
+    left:80% ;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: red;
+    z-index: 1;
+    top: 1.7%;
+}
+.btn_img_atv_cronometro_class{
+    background-color: #0f0f0f;
+    border: none;
+    width: 1px;
+    height: 1px;
+}
+.box_for_num_crono{
+    position: relative;
+    left: 10%;
+    top: 0%;
+}
+.btn_controla_crono{
+    background-color: #000000;
+    color: aliceblue;
+    width: 50px;
+    height: 20px;
+    position: relative;
+    left: 0%;
+    top: 50%;
+    margin: 2px;
+}

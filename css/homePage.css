@@ -1,0 +1,367 @@
+
+body{
+    background-image: linear-gradient(to bottom, #ffffff9d , rgba(88, 88, 88, 0.459),rgba(43, 42, 42, 0.753),rgba(65, 64, 64, 0.075),rgba(63, 63, 63, 0),rgba(22, 22, 22, 0.918),rgb(17, 17, 17), rgb(0, 0, 0));
+}
+.home_title{
+    position: relative;
+    height: 200px;
+    width: 300px;
+    left: 100px;
+    top: 20px;
+    font-family: "Yeseva One", serif;
+    line-height: 4px;
+}
+.texto_titulo{
+
+    display: flex;
+    color: rgb(255, 255, 255);
+    width: 800px;
+    height: 80px;
+    top: 10px;
+    left: 400px;
+}
+.shield_img{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    top: 10px;
+    right: 0px;
+}
+.caixa{
+    border: 2px solid #494949 ;
+    border-radius: 5px ;
+    background-color: #131212 ;
+    padding: 10px ;
+    display: flex ;
+    flex-direction: column ;
+    justify-content: flex-start ;
+    align-items: center ;
+    margin: none ;
+    height: 100vh ;
+    width: 50px ;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+.caixa_esquerda{
+    border: 2px solid #494949 ;
+    border-radius: 5px ;
+    background-color: #131212 ;
+    padding: 10px ;
+    display: flex ;
+    flex-direction: column ;
+    justify-content: flex-start ;
+    align-items:center ;
+
+    margin: 0px ;
+    height: 100vh ;
+    width: 50px ;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
+.icone_box{
+
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    margin-top: 70%;
+}
+.icone_box:hover{
+    background-color: rgb(116, 116, 116) ;
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    border-radius: 5px;
+}
+.icone_box_direita{
+
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    margin-top: 70%;
+}
+.icone_box_direita:hover{
+    background-color: #ff0202;
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    border-radius: 5px;
+}
+.icone_menu{
+    position: relative;
+    left:12%;
+    top: 15%;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.icone_box_primeiro{
+
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    margin-top: 0%;
+}
+.icone_box_primeiro:hover{
+    background-color:rgb(116, 116, 116);
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    border-radius: 5px;
+}
+.icone_box_home{
+
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    margin-top: 0%;
+}
+.icone_box_home:hover{
+    background-color: rgb(255, 255, 255);
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    border-radius: 5px;
+}
+.conserta_iniciar{
+    left: 3px !important;
+    top: 2px !important;
+}
+.icone_box_ultimo{
+
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    margin-top: 5px;
+}
+.icone_box_ultimo:hover{
+    background-color: #f00;
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    border-radius: 5px;
+}
+.tavatorto{
+    left: 7px !important;
+}
+.icon_size{
+    left: 0px !important;
+    top: 2px !important;
+    
+}
+.img_size{
+    height: 60px !important;
+    width: 60px !important;
+}
+.icon_calendar{
+    top: 1.5px !important;
+    left: 3.5px !important;
+}
+.icone_box_confg{
+
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    margin-top: 67px;
+    z-index: 1;
+}
+.icone_box_confg:hover{
+    background-color: #f00;
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    border-radius: 5px;
+}
+.ativa_menu_lateral{
+    background-color: #f00 !important;
+    border-radius: 5px;
+    top: 13%;
+    cursor: pointer;
+}
+.esconde_menu_lateral{
+    display: none;
+}
+@media (device-width: 100vw) and (device-height: 100vh) { 
+    .body{
+        background-image: linear-gradient(to bottom, #ffffff , #fffffff8 , rgba(255, 255, 255, 0.781) );
+    }
+
+    .icone_box_ultimo{
+
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 7%;
+    margin-top: 5px;
+    }
+    .icone_box_ultimo:hover{
+        background-color: #f00;
+        color: aliceblue;
+        position: relative;
+        width: 67px;
+        height: 67px;
+        top: 7%;
+        border-radius: 5px;
+}
+    .icone_box_confg{
+
+        color: aliceblue;
+        position: relative;
+        width: 67px;
+        height: 67px;
+        top: 7%;
+        margin-top: 186px;
+    }
+    .icone_box_confg:hover{
+        background-color: #f00;
+        color: aliceblue;
+        position: relative;
+        width: 67px;
+        height: 67px;
+        top: 7%;
+        border-radius: 5px;
+    }
+    .icone_box{
+
+        color: aliceblue;
+        position: relative;
+        width: 67px;
+        height: 67px;
+        top: 2%;
+        margin-top: 110%;
+    }
+    .icone_box:hover{
+        background-color: rgb(116, 116, 116);
+        color: aliceblue;
+        position: relative;
+        width: 67px;
+        height: 67px;
+        top: 2%;
+        border-radius: 5px;
+    }
+    
+}
+/*produtos box e atualizaçoes box************************************************************************************************/
+.produtos_box{
+    background-color: rgb(41, 41, 41);;
+    border-radius: 5px;
+    border: 2px solid #ffbb00ec;
+    position: relative;
+    width: 70vw;
+    height: 75vh;
+    margin-top: 5%;
+    left: 20%;
+}
+.produtos_box_promoçao{
+    background-color: rgb(41, 41, 41);
+    border-radius: 5px;
+    border: 2px solid #f00;
+    position: relative;
+    width: 70vw;
+    height: 75vh;
+    top: -90px;
+    left: 20%;
+    padding: 0%;
+}
+.content{
+    height: 420px;
+    width: 800px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.s1{
+    position: absolute;
+    left: 0%;
+    transition: 3s;
+}
+.s1_hover{
+    left: 100% !important;
+}
+
+.s2{
+    position: absolute;
+    left: 0%;
+    transition: 3s;
+}
+.s2_hover{
+    left: 100% !important;
+}
+
+.s3{
+    position: absolute;
+    left: 0%;
+    transition: 3s;
+}
+.s3_hover{
+    left: 100% !important;
+}
+
+.s4{
+    position: absolute;
+    left: 0%;
+    transition: 3s;
+}
+.s4_hover{
+    left: 100% !important;
+}
+.text_promo_box{
+    border: none;
+    position: absolute;
+    width: 20%;
+    height: 7%;
+    left: 0%;
+    top: -39px;
+}
+.text_promo_in_box{
+    font-size: 200%;
+    font-family:Arial, Helvetica, sans-serif; 
+    position: absolute;
+    left: 0%;
+    top: -100%;
+    
+}
+
+
+/*scrollbar********************************************************************************************************/
+::-webkit-scrollbar{
+    background-color:#131212;
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color:#ffbb00ec;
+    border-radius: 8px;
+}
+.telinha{
+    width: 40%;
+    height: 100%;
+}

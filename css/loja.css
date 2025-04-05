@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    margin: 0;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #ffffff9d , rgba(88, 88, 88, 0.459),rgba(43, 42, 42, 0.753),rgba(65, 64, 64, 0.075),rgba(63, 63, 63, 0),rgba(22, 22, 22, 0.918),rgb(17, 17, 17), rgb(0, 0, 0));
+    position: fixed;
+    
+}
+.O_titulo_pagina_loja{
+
+    color: rgb(0, 0, 0);
+}
+.caixa_loja_titulo{
+    background-color: none;
+    width: 12%;
+    height: 8%;
+    position: relative;
+    align-items:end;
+    left: 6%;
+    margin-top: 1%;
+}
+
+.caixa_forma_para_menu_lateral_esquerdo{
+
+    width: 5.5%;
+    height: 100vh;
+    background-color: rgba(46, 46, 46, 0.795);
+    border-radius: 5px;
+    border: 2px  solid rgb(95, 95, 95);
+    position: fixed;
+    left: 0;
+    margin-top: -4.6%;
+    
+}
+.caixa_forma_para_menu_lateral_direito_escolha_da_materia{
+
+    width: 5.5%;
+    height: 100vh;
+    background-color: rgba(46, 46, 46, 0.795);
+    border-radius: 5px;
+    border: 2px  solid rgb(95, 95, 95);
+    position: fixed;
+    left: 94.5%;
+    margin-top: -4.6%;
+    
+}
+.caixas_para_quardar_icones_imagens_png{
+
+    width: 95%;
+    height: 10%;
+    position: relative;
+    background-color: antiquewhite;
+    margin-top: 4%;
+}
+.caixa_para_link_meus_pdfs{
+
+    width: 20%;
+    height: 6%;
+    position: relative;
+    background-color: rgb(19, 18, 18);
+    border:  2px  solid rgb(95, 95, 95);
+    color: aliceblue;
+    border-radius: 5px;
+    margin-top: 3%;
+    left: 6%;
+    transition: 0.5s;
+}
+.caixa_para_link_meus_pdfs:hover{
+    
+    background-color: rgba(209, 209, 209, 0.842);
+    border:  2px  solid rgb(255, 255, 255);
+    color: rgb(3, 3, 3);
+}
+.caixa_forma_para_carrocel_slide_ofertas{
+
+    width: 70%;
+    height: 60%;
+    background-color: rgb(19, 18, 18);
+    border:  2px  solid rgb(95, 95, 95);
+    border-radius: 5px;
+    position: relative;
+    left: 15%;
+    margin-top: 5%;
+    overflow: hidden;
+}
+.movimenta_slide_oferta{
+    background-color: rgb(19, 18, 18);
+    border:  2px  solid rgb(95, 95, 95);
+    border-radius: 5px;
+    width: 30px;
+    height: 10px;
+}
+.movimenta_slide_oferta:hover{
+    background-color: rgba(209, 209, 209, 0.842);
+    border:  2px  solid rgb(255, 255, 255);
+    color: rgb(3, 3, 3);
+}
+
+.caixa_que_guardao_os_pdfs_em_oferta{
+
+    background-color: red;
+    width: 90%;
+    height: 90%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1s;
+}
+.move_oferta_in_slide{
+    left:150%;
+}

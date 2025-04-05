@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/script/cronograma.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="/css/cronograma.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+    <title>Document</title>
+
+</head>
+<body>
+    <div style="width: 500px; height: 500px;">
+        <canvas id="grafico1" ></canvas>
+    </div>    
+        <script>
+            const ctx = document.getElementById('grafico1');
+        
+            new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+                datasets: [{
+                label: '# of Votes',
+                data: [12, 19, 3, 5, 5, 3],
+                borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                y: {
+                    beginAtZero: true
+                }
+                }
+            }
+            });
+        </script>
+        <a href="/pagina/index.html"><button>display</button></a>
+</body>
+</html>

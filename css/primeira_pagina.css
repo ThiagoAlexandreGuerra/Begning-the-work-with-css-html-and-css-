@@ -1,0 +1,14 @@
+*{
+    padding: 0%;
+    width: 0%;
+    height: 0%;
+}
+.telinha{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    margin: none;
+    border: none;
+    left: 0%;
+    top: 0%;
+}

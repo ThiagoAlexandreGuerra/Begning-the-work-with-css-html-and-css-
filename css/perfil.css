@@ -1,0 +1,392 @@
+
+body{
+    background-color: #0f0f0f;
+}
+/*scrollbar********************************************************************************************************/
+::-webkit-scrollbar{
+    background-color:#131212;
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color:#ffbb00ec;
+    border-radius: 8px;
+}
+/*menu lateral esquerdo*******************************************************************
+*******************************************************************************************/
+.home_title{
+    position: relative;
+    height: 200px;
+    width: 300px;
+    left: 100px;
+    top: 20px;
+    font-family: "Yeseva One", serif;
+    line-height: 4px;
+    color: aliceblue;
+}
+.caixa{
+    border: 2px solid #494949 ;
+    border-radius: 5px ;
+    background-color: #131212 ;
+    padding: 10px ;
+    display: flex ;
+    flex-direction: column ;
+    justify-content: flex-start ;
+    align-items: center ;
+    margin: none ;
+    height: 100vh ;
+    width: 50px ;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    box-shadow: 6px 8px 10px rgb(0,0,0,.5);
+}
+.caixa_esquerda{
+    border: 2px solid #494949 ;
+    border-radius: 5px ;
+    background-color: #131212 ;
+    padding: 10px ;
+    display: flex ;
+    flex-direction: column ;
+    justify-content: flex-start ;
+    align-items:center ;
+
+    margin: 0px ;
+    height: 100vh ;
+    width: 50px ;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    box-shadow: 6px 6px 8px 10px rgb(0,0,0,.5);
+}
+
+.icone_box{
+
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    margin-top: 70%;
+}
+.icone_box:hover{
+    background-color: rgb(116, 116, 116) ;
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    border-radius: 5px;
+}
+.icone_box_direita{
+
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    margin-top: 70%;
+}
+.icone_box_direita:hover{
+    background-color: #ff0202;
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    border-radius: 5px;
+}
+.icone_menu{
+    position: relative;
+    left:12%;
+    top: 15%;
+    font-size: 40px;
+    font-family: "Yeseva One", serif;
+    cursor: pointer;
+}
+.primeiro{
+
+    color: aliceblue !important;
+    position: relative !important;
+    width: 67px !important;
+    height: 67px !important;
+    top: 2% !important;
+    margin-top: 0% !important;
+}
+.primeiro:hover{
+    background-color:rgb(116, 116, 116);
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    border-radius: 5px;
+}
+.icone_box_primeiro:hover{
+    background-color:rgb(116, 116, 116);
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    border-radius: 5px;
+}
+.icone_box_home{
+
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    margin-top: 0%;
+}
+.icone_box_home:hover{
+    background-color: #f00;
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    border-radius: 5px;
+}
+.icone_box_ultimo{
+
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    margin-top: 5px;
+}
+.icone_box_ultimo:hover{
+    background-color: #f00;
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    border-radius: 5px;
+}
+.tavatorto{
+    left: 7px !important;
+}
+.icon_size{
+    left: 0px !important;
+    top: 2px !important;
+    
+}
+.img_size{
+    height: 60px !important;
+    width: 60px !important;
+}
+.icon_calendar{
+    top: 1.5px !important;
+    left: 3.5px !important;
+}
+.icone_box_confg{
+
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    margin-top: 65px;
+    
+}
+.icone_box_confg:hover{
+    background-color: #f00;
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 2%;
+    border-radius: 5px;
+}
+.ativa_menu_lateral{
+    background-color: #f00 !important;
+    border-radius: 5px;
+    top: 13%;
+    cursor: pointer;
+}
+.esconde_menu_lateral{
+    display: none;
+}
+@media (device-width: 100vw) and (device-height: 100vh) { 
+
+    .icone_box_ultimo{
+
+    color: aliceblue;
+    position: relative;
+    width: 67px;
+    height: 67px;
+    top: 7%;
+    margin-top: 5px;
+    }
+    .icone_box_ultimo:hover{
+        background-color: #f00;
+        color: aliceblue;
+        position: relative;
+        width: 67px;
+        height: 67px;
+        top: 7%;
+        border-radius: 5px;
+}
+    .icone_box_confg{
+
+        color: aliceblue;
+        position: relative;
+        width: 67px;
+        height: 67px;
+        top: 7%;
+        margin-top: 186px;
+    }
+    .icone_box_confg:hover{
+        background-color: #f00;
+        color: aliceblue;
+        position: relative;
+        width: 67px;
+        height: 67px;
+        top: 7%;
+        border-radius: 5px;
+    }
+    .icone_box{
+
+        color: aliceblue;
+        position: relative;
+        width: 67px;
+        height: 67px;
+        top: 2%;
+        margin-top: 110%;
+    }
+    .icone_box:hover{
+        background-color: rgb(116, 116, 116);
+        color: aliceblue;
+        position: relative;
+        width: 67px;
+        height: 67px;
+        top: 2%;
+        border-radius: 5px;
+    }
+    
+}
+main{
+    margin: none;
+    padding: none;
+    border: none;
+}
+/*configuraçõe box de perfil***************************************************************
+******************************************************************************************/
+.titulo_pag_perfil{
+    color: aliceblue;
+    margin: none;
+    left: 6.5%;
+    position: fixed;
+}
+.box_for_foto_perfil{
+    background-color: red;
+    width: 15%;
+    height: 40vh;
+    position: fixed;
+    margin: none;
+    left: 6.5%;
+    top:  13.5%;
+
+}
+.alinha_box_user_perf_pag{
+    background-color: blue;
+    position: absolute;
+    margin: none;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    
+}
+.alinha_foto_user_perf_pag{
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+/*curriculo do usuario**********************************************/
+
+.box_curriculo_user{
+    position: fixed;
+    width: 75vw;
+    height: 40%;
+    top: 13%;
+    background-color: rgb(21, 21, 21);
+    margin: none;
+    left: 22.5%;
+    overflow: visible;
+    overflow: hidden;
+    overflow: scroll;
+    overflow: auto;
+}
+.box_curriculo_user::-webkit-scrollbar{
+    background-color:#131212;
+    width: 6px;
+}
+.box_curriculo_user::-webkit-scrollbar-thumb{
+    background-color:rgba(255, 0, 0, 0.925);
+    border-radius: 8px;
+}
+
+.titulo_in_box_curriculo{
+    color: aliceblue;
+    position: fixed;
+    background-color: rgb(8, 8, 8);
+    width: 75%;
+    top: 8%;
+    z-index: 2;
+}
+.box_curriculo_esquerda{
+    width: 49%;
+    height: 100%;
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    background-color:none;
+    color: aliceblue;
+}
+.box_curriculo_direita{
+    width: 49%;
+    height: 100%;
+    position: absolute;
+    top: 30%;
+    left: 51%;
+    background-color:none;  
+    color: aliceblue; 
+}
+
+
+/*box para a perormace do usuaruio na pagina de perfil**********************************
+****************************************************************************************/
+.box_inf_user_one_above_us{
+    position: fixed;
+    width: 91.5vw;
+    height: 40%;
+    top: 60%;
+    background-color: rgb(21, 21, 21);
+    margin: none;
+    border: 2px solid red;
+    left: 6.5%;
+}
+/**********************************testando apagar depois********************************/
+
+.input_class_test_algoritimo{
+    margin-left: 2px;
+    position: relative;
+    top: 0%;
+}
+.box_inputs{
+    position: relative;
+    display: inline;
+    align-items: center;
+    left: 10%;
+    top: 10%();
+
+}
+
